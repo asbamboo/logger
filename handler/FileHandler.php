@@ -3,6 +3,8 @@ namespace asbamboo\logger\handler;
 
 use asbamboo\logger\RecordInterface;
 use asbamboo\logger\exception\LoggerException;
+use asbambo\logger\handler\HandlerAbstract;
+use asbamboo\logger\HandlerInterface;
 
 /**
  * 写文件方式日志处理器
