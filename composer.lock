@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52e71d6a88e022d22d3e9b52c8d42bd5",
+    "content-hash": "f0f4a42ade8fc76709be0bcc880e261c",
     "packages": [
         {
             "name": "asbamboo/autoload",
@@ -42,7 +42,7 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/asbamboo/autoload/tree/v1.0.0",
+                "source": "https://github.com/asbamboo/autoload/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/autoload/issues"
             },
             "time": "2018-09-11T10:02:19+00:00"
@@ -1023,12 +1023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "32c5cba90f7db47b1c10a777b36eccfd44ef8bd7"
+                "reference": "a7d958c48ca9e72ffe3d7aa4db1f3ad669122f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/32c5cba90f7db47b1c10a777b36eccfd44ef8bd7",
-                "reference": "32c5cba90f7db47b1c10a777b36eccfd44ef8bd7",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/a7d958c48ca9e72ffe3d7aa4db1f3ad669122f44",
+                "reference": "a7d958c48ca9e72ffe3d7aa4db1f3ad669122f44",
                 "shasum": ""
             },
             "require": {
@@ -1065,7 +1065,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2018-05-15T05:48:40+00:00"
+            "time": "2018-10-17T12:36:19+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -1513,6 +1513,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.2"
+    },
     "platform-dev": []
 }

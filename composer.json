@@ -3,6 +3,7 @@
     "description": "日志模块，遵守psr3规则",
     "type": "project",
     "require": {
+    	"php" : "^7.2",
         "psr/log": "^1.0",
         "asbamboo/autoload": "^1.0"
     },

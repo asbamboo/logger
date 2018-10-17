@@ -16,4 +16,11 @@ interface RecordInterface
      * @return string
      */
     public function getChannel() : string;
+
+    /**
+     * 日志数据
+     *
+     * @return array|NULL
+     */
+    public function getData() : ?array;
 }

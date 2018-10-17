@@ -28,4 +28,24 @@ interface HandlerInterface
      * @param array $context 日志内容 LoggerInterface::log() 方法的参数 $context
      */
     public function process(string $level, string $message, array $context = []) : void;
+
+    /**
+     * 设置日志处理程序支持的日志级别
+     *
+     * $levels 是 psr log中定义的日志级别
+     * @see \Psr\Log\LogLevel
+     *
+     * @param array $levels
+     * @return HandlerInterface
+     */
+    public function setHandlerLevels(array $levels) : HandlerInterface;
+
+    /**
+     * 返回日志处理程序支持的日志级别
+     * 返回psr log中定义的日志级别
+     * @see \Psr\Log\LogLevel
+     *
+     * @return array
+     */
+    public function getHandlerLevels() : array;
 }
