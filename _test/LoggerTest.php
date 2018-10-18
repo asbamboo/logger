@@ -20,7 +20,7 @@ class LoggerTest extends TestCase
 
     public function setUp()
     {
-        $this->path = dirname(__DIR__). '/fixtures/cache/test/log.file';
+        $this->path = __DIR__ . '/fixtures/cache/test/log.file';
     }
 
     public function tearDown()
