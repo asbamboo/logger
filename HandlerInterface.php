@@ -32,20 +32,20 @@ interface HandlerInterface
     /**
      * 设置日志处理程序支持的日志级别
      *
-     * $levels 是 psr log中定义的日志级别
+     * $level 是 psr log中定义的日志级别
      * @see \Psr\Log\LogLevel
      *
-     * @param array $levels
+     * @param string $level
      * @return HandlerInterface
      */
-    public function setHandlerLevels(array $levels) : HandlerInterface;
+    public function setHandlerLevel(string $level) : HandlerInterface;
 
     /**
      * 返回日志处理程序支持的日志级别
      * 返回psr log中定义的日志级别
      * @see \Psr\Log\LogLevel
      *
-     * @return array
+     * @return array|null
      */
-    public function getHandlerLevels() : array;
+    public function getSupportedLevels() : ?array;
 }
