@@ -1,5 +1,5 @@
 <?php
-namespace asbambo\logger\handler;
+namespace asbamboo\logger\handler;
 
 use asbamboo\logger\HandlerInterface;
 
