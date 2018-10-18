@@ -2,8 +2,6 @@
 namespace asbamboo\logger\handler;
 
 use asbamboo\logger\exception\LoggerException;
-use asbamboo\logger\handler\HandlerAbstract;
-use asbamboo\logger\HandlerInterface;
 
 /**
  * 写文件方式日志处理器
@@ -11,7 +9,7 @@ use asbamboo\logger\HandlerInterface;
  * @author 李春寅 <licy2013@aliyun.com>
  * @since 2018年10月17日
  */
-class FileHandler extends HandlerAbstract implements HandlerInterface
+class FileHandler extends HandlerAbstract implements FileHandlerInterface
 {
     /**
      * 指定日志文件路径
